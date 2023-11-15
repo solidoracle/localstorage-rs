@@ -10,4 +10,5 @@ It provides macros for storing and retrieving various data types in a local file
 
 1. Create an .env file using the .env.example file as a template.
 2. Set the environment variables STORAGE_PATH and FILE_EXTENSION in .env
-3. use the dotenv crate and call dotenv::dotenv().ok(); in the function you are using
+3. Add dotenv crate to your Cargo.toml
+4. Use the dotenv crate and call dotenv::dotenv().ok(); in the function you are using
