@@ -1,0 +1,11 @@
+[package]
+name = "localstorage-rs"
+version = "0.1.0"
+authors = ["solidoracle <solidoracle17@gmail.com>"]
+edition = "2023"
+description = "localstorage-rs is a Rust crate that mimics smart contract storage in system code. It provides macros for storing and retrieving various data types in a local file system, with configurable storage paths and file extensions."
+license = "MIT"
+repository = "https://github.com/solidoracle/localstorage-rs"
+
+[dependencies]
+dotenv = "0.15.0"
